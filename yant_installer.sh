@@ -12,7 +12,7 @@ if ! command -v python3 >/dev/null 2>&1; then
     pkg install -y python
 fi
 
-echo "Yant scripti is creating..."
+echo "Yant script is creating..."
 cat > "$YANT" <<'EOF'
 #!/usr/bin/env python3
 import sys, re
